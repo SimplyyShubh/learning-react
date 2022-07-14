@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+  margin: 0 ;
+  padding: 0 ;
+  font-family: 'Inter', sans-serif ;
+  color: white;
+  background-color: rgb(35, 33, 33);
+}
+
+a:link, a:visited{
+  text-decoration: none;
+}
+.container{
+  /* padding: 100px ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 ;
+}
+
+.card{
+  background-color: #23252C;
+  display: flex ;
+  flex-direction: column;
+  max-width: 300px;
+  border-radius: 10px;
+  /* height: 650px ; */
+}
+
+/* Info */
+.Info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg{
+   /* flex-shrink: 0 ; */
+  width: 100% ;
+  height: 100% ;  
+   /* padding: 10px 30px; */
+}
+
+.profileImg > img {
+  width: 100% ;
+  /* height: 100% ; */
+}
+
+.profile-title{
+  font-weight: 700;
+  font-size: 25px;
+  padding: 10px 0 5px 0  ; 
+  letter-spacing: 1px;
+  /* color:#23252C ; */
+}
+
+.profile-position{
+  color: #F3BF99 ;
+  font-size: 12.8px ;
+  margin-bottom: 10px ;
+}
+
+.profile-portfolio{
+  color: #F5F5F5 ;
+  font-size: 11px;
+  margin-bottom: 20px ;
+}
+
+.email{
+  background-color: white;
+  color: #374151 ;
+  padding: 6px 12px ;
+  border-radius: 4px ;
+  font-size: 12px ;
+  margin-right: 10px ;
+}
+
+.email-text{
+  padding: 0 0 0 8px ;
+}
+
+.linkedin{
+  background-color: #5093E2;
+  color: white ;
+  padding: 6px 12px ;
+  border-radius: 4px ;
+  font-size: 12px ;
+}
+
+.linkedin-text{
+  padding: 0 0 0 8px ;
+}
+
+/* Info CSS ends*/
+
+.section-about{
+  margin: 10px 0 ;
+  padding: 10px 25px;
+}
+
+.section-about > h4 {
+  margin: 10px 0 1px 0  ;
+}
+
+.section-about > p{
+  margin: 5px 0 20px 0 ;
+  font-size: 12px;
+  font-weight: 200;
+  /* letter-spacing: 1px ; */
+  word-spacing: 2px ;
+}
+
+/* footer */
+
+.footer{
+  background-color: #161619 ;
+  color: #918E9B ;
+  padding: 20px 40px ;
+  text-align: center;
+   border-radius: 0 0 10px 10px;
+}
+
+.footer > i{
+  margin: 0 10px ;
+  font-size: 30px ;
+}
